@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #BFD7E4;
+}
+
+header {
+  width: 100%;
+  background: #293241;
+  height: 465px;
+}
+
+h1, h3, button, legend {
+  font-family: 'Staatliches';
+  font-weight: 400;
+}
+
+h1, h3, button, p {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 102px;
+}
+
+p {
+  font-size: 16px;
+  padding-bottom: 24px;
+}
+
+img {
+  margin-bottom: 32px;
+}
+
+.top-form {
+  font-size: 24px;
+  line-height: 34px;
+  background: #F67669;
+  border-radius: 8px 8px 0 0;
+  width: 750px;
+  height: 133px;
+  margin: 0 auto;
+  padding: 50px 250px;
+}
+
+form {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background: #FFFFFF;
+  padding: 32px 64px 64px;
+  gap: 32px;
+  margin-bottom: 392px;
+  border-radius: 0 0 20px 20px;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.name-wrapper {
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapper {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+}
+
+label span {
+  color: #C1BCCC;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+label span:hover {
+  color: #605e64;
+}
+
+.input-wrapper input, select, textarea {
+  background: #FAFAFC;
+  border: solid 1px #E6E6F0;
+  height: 56px;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 14px;
+  color: #4E4958;
+  font-family: 'Poppins';
+}
+
+.input-wrapper input, legend {
+  width: 100%;
+  
+}
+
+legend {
+  color: #253B51;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: #E6E6F0 solid 1px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+select {
+  width: 300px;
+}
+
+textarea {
+  height: 167px;
+}
+
+.checkbox-wrapper input {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+
+.checkbox-wrapper label {
+  display: flex;
+  gap: 8px;
+}
+
+.checkbox-wrapper label::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 8px;
+  border:  #e6e6f0 solid 1px;
+  color: #FAFAFC;
+}
+
+
+.checkbox-wrapper input:checked + label::before {
+  background-color: #605e64;
+  background-position: center;
+}
+
+.date-wrapper, .time-wrapper {
+  display: flex;
+}
+
+.date-wrapper {
+  gap: 32px;
+}
+
+.time-wrapper {
+  gap: 10px;
+}
+
+button {
+  margin-top: 48px;
+  background: #F67669;
+  border-radius: 8px;
+  border: none;
+  height: 51px;
+  font-size: 20px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ba493d;
+}
+
+button:active {
+  background: #832c23;
+}
